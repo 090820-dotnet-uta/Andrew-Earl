@@ -59,7 +59,7 @@ Cloud-Controller-manager |
 https://kubernetes.io/docs/reference/command-line-tools-reference/cloud-controller-manager/
 https://kubernetes.io/docs/reference/command-line-tools-reference/kube-apiserver/
 
-What is the name what runs a node?
+What is the name of what runs a node?
 
 Kublet | 
 Kube Proxy
