@@ -1,0 +1,54 @@
+Earl's Questions
+| =  right
+How do you pronounce “Kubernetes”?
+
+Ku-Bur-Neties |
+Ku-Ber-Nay-ties
+Ko-Bur-Nayties
+
+What is the correct structure of Kubernetes Node (Smaller < Larger)
+
+Container<Pod<Node<Cluster |
+Container<Node<Cluster<Node
+Container<Pod<Cluster<Node
+
+Is a node a virtual or physical machine?
+
+Virtual
+Physical
+Either/Or |
+
+Which Node can communicate with every other node in the Kubernetes Control Plane 
+
+Etcd
+Kube-scheduler
+Cloud-Controller Manager
+Kube-api-server |
+
+What is the purpose of the Kube-Scheduler?
+
+Manage the events of a cluster
+Watch for new Pods and assign a Node to them based on predetermined requirements |
+Make regular backups
+Create Api access tokens 
+
+How many controllers does the Kube-Controller Manager have?
+
+2
+4 |
+5
+7
+
+Which two components communicate outside of the Control Plane
+
+Etcd
+Kube-Api-Server |
+Kube-scheduler
+Cloud-Controller-manager |
+
+What is the name of the primary implementer of the Pod
+
+Kublet | 
+Kube Proxy
+Component
+Pod Controller
