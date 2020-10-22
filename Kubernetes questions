@@ -5,12 +5,14 @@ How do you pronounce “Kubernetes”? (This was added because initally I couldn
 Ku-Bur-Net-ies |
 Ku-Ber-Nay-ties
 Ko-Bur-Nay-ties
+Kay-Bur-Nay-ies
 
 What is the correct structure of Kubernetes Node (Smaller < Larger)
 
 Container<Pod<Node<Cluster |
 Container<Node<Cluster<Node
 Container<Pod<Cluster<Node
+Container<Cluster<Pode<Node
 
 https://kubernetes.io/docs/concepts/architecture/nodes/
 
@@ -19,6 +21,7 @@ Is a node a virtual or physical machine?
 Virtual
 Physical
 Either/Or |
+None of the above
 
 https://kubernetes.io/docs/concepts/architecture/nodes/
 
