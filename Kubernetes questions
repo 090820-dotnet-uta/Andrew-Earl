@@ -1,6 +1,6 @@
 Earl's Questions
-| =  right
-How do you pronounce “Kubernetes”?
+| =  correct
+How do you pronounce “Kubernetes”? (This was added because initally I couldnt and wanted to make sure no one goofed in an interview)
 
 Ku-Bur-Net-ies |
 Ku-Ber-Nay-ties
@@ -12,11 +12,15 @@ Container<Pod<Node<Cluster |
 Container<Node<Cluster<Node
 Container<Pod<Cluster<Node
 
+https://kubernetes.io/docs/concepts/architecture/nodes/
+
 Is a node a virtual or physical machine?
 
 Virtual
 Physical
 Either/Or |
+
+https://kubernetes.io/docs/concepts/architecture/nodes/
 
 Which Node can communicate with every other node in the Kubernetes Control Plane 
 
@@ -25,6 +29,8 @@ Kube-scheduler
 Cloud-Controller Manager
 Kube-api-server |
 
+https://kubernetes.io/docs/reference/command-line-tools-reference/kube-apiserver/
+
 What is the purpose of the Kube-Scheduler?
 
 Manage the events of a cluster
@@ -32,12 +38,16 @@ Watch for new Pods and assign a Node to them based on predetermined requirements
 Make regular backups
 Create Api access tokens 
 
-How many controllers does the Kube-Controller Manager have?
+https://kubernetes.io/docs/reference/command-line-tools-reference/kube-scheduler/
+
+How many controllers does the Kube-Controller Manager have by default?
 
 2
 4 |
 5
 7
+
+https://kubernetes.io/docs/reference/command-line-tools-reference/kube-controller-manager/
 
 Which two components communicate outside of the Control Plane
 
@@ -46,9 +56,32 @@ Kube-Api-Server |
 Kube-scheduler
 Cloud-Controller-manager |
 
-What is the name of the primary implementer of the Pod
+https://kubernetes.io/docs/reference/command-line-tools-reference/cloud-controller-manager/
+https://kubernetes.io/docs/reference/command-line-tools-reference/kube-apiserver/
+
+What is the name what runs a node?
 
 Kublet | 
 Kube Proxy
 Component
 Pod Controller
+
+https://kubernetes.io/docs/reference/command-line-tools-reference/kubelet/
+
+What tool can be used to make local single node Kubernetes cluster for testing purposes?
+
+-Tinykube
+-Minikube |
+-SMoLkube
+-Mazekube
+
+https://kubernetes.io/docs/reference/tools/
+https://minikube.sigs.k8s.io/docs/
+
+How does Kubernetes automate scaleability?
+-Pod Stacking
+-Horizontal pod autoscale |
+-Node indexing
+-Faux Networking
+
+https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/
