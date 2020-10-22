@@ -68,7 +68,7 @@ Pod Controller
 
 https://kubernetes.io/docs/reference/command-line-tools-reference/kubelet/
 
-What tool can be used to make local single node Kubernetes cluster for testing purposes?
+What tool can be used to make a local single node Kubernetes cluster for testing purposes?
 
 -Tinykube
 -Minikube |
